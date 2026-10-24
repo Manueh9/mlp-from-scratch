@@ -1,0 +1,27 @@
+# ---- Entorno virtual de Python ----
+.venv/
+venv/
+env/
+
+# ---- Caché de Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- Datos descargados (Fashion-MNIST se descarga solo con torchvision) ----
+data/
+
+# ---- Modelos entrenados ----
+*.pt
+*.pth
+*.onnx
+
+# ---- Sistema operativo / editor ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
